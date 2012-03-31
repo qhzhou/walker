@@ -22,7 +22,14 @@
         </activity>
         <activity
             android:name=".module.login.LoginController"
-            android:theme="@android:style/Theme.NoTitleBar.OverlayActionModes" >
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".module.main.MainController"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
             <intent-filter>
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>

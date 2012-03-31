@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="hello">Hello World, WalkerActivity!</string>
-    <string name="app_name">Walker</string>
+    <string name="app_name">足迹</string>
+    <string name="initiate_event">发起组织</string>
+    <string name="pending_event">待定活动</string>
+    <string name="confirm_event">确认出行</string>
+    <string name="footprint">足迹</string>
+    <string name="friend">好友</string>
+    <string name="setting">设置</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
 
 </resources>

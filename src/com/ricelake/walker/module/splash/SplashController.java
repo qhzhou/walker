@@ -24,8 +24,9 @@ public class SplashController extends AbstractController implements Runnable
     @Override
     protected void setup(DataForm<String, Object> dataForm)
     {
+    	this.view = new SplashView();
         this.model = new SplashModel();
-        this.view = new SplashView();
+        
         
         Thread t = new Thread(this);
         t.start();
